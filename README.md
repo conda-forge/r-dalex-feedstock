@@ -1,9 +1,9 @@
 About r-dalex
 =============
 
-Home: https://pbiecek.github.io/DALEX/
+Home: https://ModelOriented.github.io/DALEX/, https://github.com/ModelOriented/DALEX
 
-Package license: GPL
+Package license: GPL-3
 
 Feedstock license: BSD 3-Clause
 
@@ -117,5 +117,4 @@ Feedstock Maintainers
 =====================
 
 * [@conda-forge/r](https://github.com/conda-forge/r/)
-* [@philip-khor](https://github.com/philip-khor/)
 
