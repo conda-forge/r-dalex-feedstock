@@ -1,4 +1,4 @@
-{% set version = '0.4.7' %}
+{% set version = "0.4.9" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/DALEX_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/DALEX/DALEX_{{ version }}.tar.gz
-  sha256: 70f8afe46c94161b084a9e025767956c7c311a1e64c31e1c05693577819b3c46
+  sha256: 41908655d76910902f38f0c446f9bb2a2f45ef06aa2e6a52e26883518e5371ff
 
 build:
   merge_build_host: True  # [win]
