@@ -1,4 +1,4 @@
-{% set version = "1.0.1" %}
+{% set version = "1.2.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/DALEX_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/DALEX/DALEX_{{ version }}.tar.gz
-  sha256: e091ed3c5da024f6de5bf4649a5663c84649512bb0045f5440a219bb4fb17ec9
+  sha256: 46265255f48ba9968b27a02a7a3c755bc4a4a114d425aad0b44f08434a64cc55
 
 build:
   merge_build_host: true  # [win]
@@ -22,7 +22,7 @@ build:
 
 requirements:
   build:
-    - {{posix}}zip               # [win]
+    - {{ posix }}zip               # [win]
   host:
     - r-base
     - r-ggplot2
